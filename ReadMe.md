@@ -15,7 +15,7 @@ The architecture is designed for **scalability, resilience, and cost efficiency*
 ## 🧩 Architecture Summary
 
 ```markdown
-![Figure 01 – System Architecture Overview](images/figure01_architecture_overview.png)  
+![Figure 01 – System Architecture Overview](images/figure01_architecture.png)  
 *Figure 01 – EC2 instances share data through EFS, which is backed up to versioned S3 using DataSync. EventBridge and SNS provide monitoring and alerts.*
 ```
 
