@@ -77,7 +77,7 @@ I began by setting up the foundational network infrastructure:
 * This modular approach ensured reusability and avoided reinventing existing solutions.
 
 **Key Snippet:**
-![Figure 2 – VPC/Subnet Module Code]((images/figure02_vpc_subnet_module.png))
+![Figure 2 – VPC/Subnet Module Code](images/figure02_vpc_subnet_module.png)
 *Figure 2: Terraform VPC configuration showing use of AWS official VPC module with public subnets and DNS support.*
 
 ---
