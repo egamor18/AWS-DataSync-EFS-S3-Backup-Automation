@@ -118,9 +118,9 @@ After confirming automatic EFS mounting worked, I introduced **Auto Scaling Grou
 
 Result: All EC2s accessed the same shared data, and data persisted even after instance termination.
 
-![Figure 5 – Scaling Before Stress Test](images/figure05_scaling_before_stress)
+![Figure 5 – Scaling Before Stress Test](images/figure05_scaling_before_stress.png)
 *Figure 05: A screenshot showing the number of EC2 instances BEFORE CPU Utilization simulation with cpu-stress*
-![Figure 6 – Scaling After Stress Test](images/figure06_scaling_after_stress)
+![Figure 6 – Scaling After Stress Test](images/figure06_scaling_after_stress.png)
 *Figure 06: A screenshot showing the number of EC2 instances launched in response to cpu-stress*
 
 ---
