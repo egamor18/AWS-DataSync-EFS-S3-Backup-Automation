@@ -274,4 +274,3 @@ If full system backup is required, **AWS Backup** is a better fit.
 *Prepared as part of an AWS Infrastructure Automation and Data Archiving project using Terraform.*
 
 ---
-A git the full code can be found at:
