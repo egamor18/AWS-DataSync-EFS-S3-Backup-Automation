@@ -1,0 +1,8 @@
+#!/bin/bash
+set -xe
+
+yum update -y
+yum install -y amazon-efs-utils nfs-utils
+mkdir -p /mnt/efs
+mount -t efs ${efs_id}:/ /mnt/efs
+echo "${efs_id}:/ /mnt/efs efs _netdev,tls 0 0" >> /etc/fstab
